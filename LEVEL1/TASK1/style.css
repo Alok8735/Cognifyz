@@ -1,0 +1,108 @@
+/* Basic Styles for the Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:tan;
+    color: #333;
+}
+
+/* Styling the Content Section */
+.content-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling the Form Section */
+.form-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-section label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.form-section input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+    background-color: #df7474;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
